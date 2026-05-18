@@ -1,0 +1,15 @@
+{
+  "DOMINIO" : [ {
+    "$operation" : "CREATE",
+    "CD_EXP_DESC_DOMINIO" : "1",
+    "CD_DOMINIO" : "25041",
+    "NM_DOMINIO" : "Ext Bruno 7 Domain Test",
+    "VALOR_DOMINIO_CUSTOM" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "DS_DOMINIO" : "Ext Bruno 7 Domain TestExt Bruno 7 Domain TestExt Bruno 7 Domain Test",
+    "CD_EXP_DOMINIO" : "1",
+    "VALOR_DOMINIO" : [ ],
+    "DT_ATUALIZACAO" : "18/05/2026 14:44:50",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
