@@ -1,0 +1,94 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "22/05/2026 16:32:18",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 700,
+      "table_name" : "DIC_EXPRESSAO",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "cda4e16a-1d89-4320-963f-5477c1c8cd1d"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "0cb2fdc75284",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1153787,
+      "old_value" : 1153787
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : 1153787,
+      "old_value" : 1153787
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "22/05/2026 16:30:08",
+      "old_value" : "22/05/2026 16:07:46"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "22/05/2026 16:30:08",
+      "old_value" : "22/05/2026 16:07:46"
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "22/05/2026 16:32:18",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 751,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "4d158753-ef11-4c93-9eeb-d7b4008d3c1f"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "0cb2fdc75284",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1153787,
+      "old_value" : 1153787
+    } ],
+    "column_values" : [ {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "1153787",
+      "old_value" : "1153787"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 1153787,
+      "old_value" : 1153787
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "22/05/2026 16:30:36",
+      "old_value" : "22/05/2026 16:07:59"
+    }, {
+      "column_name" : "NM_USUARIO_NREC",
+      "data_type" : "VARCHAR2",
+      "new_value" : "nosawicki",
+      "old_value" : "brpsouza"
+    } ]
+  } ]
+}
