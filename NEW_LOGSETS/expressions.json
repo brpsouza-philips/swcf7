@@ -1,0 +1,38 @@
+{
+  "DIC_EXPRESSAO" : [ {
+    "$operation" : "MERGE",
+    "DT_ATUALIZACAO_NREC" : "22/05/2026 16:34:43",
+    "DIC_EXPRESSAO_IDIOMA" : [ {
+      "$operation" : "DELETE",
+      "DT_ATUALIZACAO_NREC" : "22/05/2026 16:36:20",
+      "DS_LOCALE" : "pt_BR",
+      "DS_IDIOMA" : "pt",
+      "NR_SEQUENCIA" : "1153787",
+      "NM_USUARIO" : "brpsouza",
+      "NM_USUARIO_NREC" : "nosawicki",
+      "CD_EXPRESSAO" : "1153787",
+      "DS_EXPRESSAO" : "teste 22/5/26 user B",
+      "DS_LAYER" : "CORE.CMDK_LTDA",
+      "DT_ATUALIZACAO" : "22/05/2026 15:40:48"
+    } ],
+    "DS_GLOSSARIO" : "teste 22/5/26teste 22/5/26 user B",
+    "NM_USUARIO" : "brpsouza",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "CD_EXPRESSAO" : "1153787",
+    "DT_ATUALIZACAO" : "22/05/2026 16:34:43"
+  } ],
+  "DIC_EXPRESSAO_CUSTOM" : [ {
+    "$operation" : "UPDATE",
+    "DT_ATUALIZACAO_NREC" : "25/05/2026 09:41:41",
+    "DS_LOCALE" : "pt_BR",
+    "DS_IDIOMA" : "pt",
+    "NR_SEQUENCIA" : "29425",
+    "NM_USUARIO" : "nosawicki",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "nosawicki",
+    "CD_EXPRESSAO" : "344657",
+    "DS_EXPRESSAO" : "Entrada de Paciente em pt-br user B",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "25/05/2026 09:41:41"
+  } ]
+}
