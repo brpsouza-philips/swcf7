@@ -1,0 +1,56 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "25/05/2026 10:34:37",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 2401,
+      "table_name" : "DIC_EXPRESSAO_CUSTOM",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "7ce1dfb2-ee20-40fe-8aa7-a75ab7185f40"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "4b5ca0cd58d4",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 29425,
+      "old_value" : 29425
+    } ],
+    "column_values" : [ {
+      "column_name" : "DS_EXPRESSAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Entrada de Paciente em pt-br user A",
+      "old_value" : "Entrada de Paciente em pt-br"
+    }, {
+      "column_name" : "CD_EXPRESSAO",
+      "data_type" : "NUMBER",
+      "new_value" : "344657",
+      "old_value" : "344657"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 29425,
+      "old_value" : 29425
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "25/05/2026 10:31:26",
+      "old_value" : "25/05/2026 09:32:01"
+    }, {
+      "column_name" : "DT_ATUALIZACAO_NREC",
+      "data_type" : "DATE",
+      "new_value" : "25/05/2026 10:31:27",
+      "old_value" : "25/05/2026 09:32:01"
+    } ]
+  } ]
+}
