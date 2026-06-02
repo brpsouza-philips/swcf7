@@ -1,0 +1,39 @@
+{
+  "TIPO_LOCALIZAR" : [ {
+    "$operation" : "CREATE",
+    "DT_ATUALIZACAO_NREC" : "27/05/2026 15:19:00",
+    "DS_LOCALIZADOR" : "ext bruno 7 locator",
+    "IE_RESTRINGE_ESTAB" : "N",
+    "IE_APRESENTACAO" : "N",
+    "TIPO_LOCALIZADOR_CLIENTE" : [ ],
+    "NM_USUARIO" : "brpsouza",
+    "NR_SEQUENCIA" : "30370",
+    "TIPO_LOCALIZAR_ATRIBUTO" : [ ],
+    "DS_SQL" : "select 1 from dual",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "IE_LOCALIZADOR_INTERNO" : "",
+    "DT_ATUALIZACAO" : "27/05/2026 15:19:00"
+  } ],
+  "TIPO_LOCALIZAR_ATRIBUTO" : [ {
+    "$operation" : "MERGE",
+    "IE_TIPO_ATRIBUTO" : "VARCHAR2",
+    "DS_ITEM" : "description",
+    "IE_OCULTAR_RESTRICAO" : "N",
+    "NR_SEQ_TIPO_LOCALIZAR" : "30370",
+    "IE_IGNORAR_ACENTUACAO" : "N",
+    "NM_USUARIO" : "brpsouza",
+    "IE_GRID" : "N",
+    "IE_FOCUS" : "N",
+    "NM_ATRIBUTO" : "DS",
+    "DT_ATUALIZACAO_NREC" : "27/05/2026 15:27:45",
+    "IE_TIPO_SELECAO" : "",
+    "IE_UTILIZA_TARJA_MAGNETICA" : "N",
+    "NR_SEQ_APRESENT" : "1",
+    "NR_SEQUENCIA" : "41948",
+    "IE_TIPO_RESTRICAO" : "1",
+    "NM_USUARIO_NREC" : "brpsouza",
+    "IE_RESULTADO" : "N",
+    "DT_ATUALIZACAO" : "27/05/2026 15:19:47",
+    "IE_DESC_RESULT" : "N"
+  } ]
+}
