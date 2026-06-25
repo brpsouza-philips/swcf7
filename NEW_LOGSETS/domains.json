@@ -1,15 +1,29 @@
 {
-  "DOMINIO" : [ {
-    "$operation" : "CREATE",
-    "CD_EXP_DESC_DOMINIO" : "1",
-    "CD_DOMINIO" : "25041",
-    "NM_DOMINIO" : "Ext Bruno 7 Domain Test",
-    "VALOR_DOMINIO_CUSTOM" : [ ],
-    "NM_USUARIO" : "brpsouza",
-    "DS_DOMINIO" : "Ext Bruno 7 Domain TestExt Bruno 7 Domain TestExt Bruno 7 Domain Test",
-    "CD_EXP_DOMINIO" : "1",
-    "VALOR_DOMINIO" : [ ],
-    "DT_ATUALIZACAO" : "18/05/2026 14:44:50",
-    "DS_LAYER" : "CORE.CMDK_LTDA"
+  "VALOR_DOMINIO_CUSTOM" : [ {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "25/06/2026 11:14:12",
+    "VL_DOMAIN" : "P",
+    "DS_DOMAIN_CLIENT_VALUE" : "Update",
+    "NR_SEQUENCIA" : "5067",
+    "NM_USUARIO" : "nosawicki",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "nosawicki",
+    "CD_DOMAIN" : "9495",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "25/06/2026 11:14:12",
+    "CD_EXP_DOMAIN_VALUE" : "767118"
+  }, {
+    "$operation" : "DELETE",
+    "DT_ATUALIZACAO_NREC" : "25/06/2026 11:18:27",
+    "VL_DOMAIN" : "P",
+    "DS_DOMAIN_CLIENT_VALUE" : "",
+    "NR_SEQUENCIA" : "5068",
+    "NM_USUARIO" : "nosawicki",
+    "IE_SITUACAO" : "A",
+    "NM_USUARIO_NREC" : "nosawicki",
+    "CD_DOMAIN" : "9495",
+    "DS_LAYER" : "CORE.CMDK_LTDA",
+    "DT_ATUALIZACAO" : "25/06/2026 11:18:27",
+    "CD_EXP_DOMAIN_VALUE" : "12"
   } ]
 }
