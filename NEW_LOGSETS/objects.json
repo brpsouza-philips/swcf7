@@ -1,0 +1,14 @@
+{
+  "OBJETO_SISTEMA" : [ {
+    "$operation" : "DELETE",
+    "DS_SCRIPT_CRIACAO" : "CREATE OR REPLACE PACKAGE CMDKLTDA_PKG_CLI1 AS\n\n    -- Retorna o nome do cliente\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2;\n\nEND CMDKLTDA_PKG_CLI1;\n/CREATE OR REPLACE PACKAGE BODY CMDKLTDA_PKG_CLI1 AS\n\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2\n    IS\n        v  varchar2(100);\n        n number(20);\n    BEGIN\n        SELECT 'teste'\n          INTO v\n          FROM cliente_tasy\n         WHERE 1= p_id_cliente;\n         \n        select max(user_id) into v from AE_LOGIN;\n\n--select CMDKLTD_FN_SOMAR3(1,2) into n from dual;\n\n--select obter_nome_agencia2(25,'1234') into v from dual;\n\n--CMDKLTD_EXECUCAO_PRESCRICAO_PCK.limpar_w_execucao_proc_mat(1,1,1,1,'cmdk-adm');\n\nselect OBTER_DT_ENTREGA_MD ('','',1,sysdate,1) into nfrom dual;\n\n        RETURN 'teste';\n\n    END obter_nome_cliente;\n\nEND CMDKLTDA_PKG_CLI1;\n/",
+    "NR_SEQUENCIA" : "10181752",
+    "NM_USUARIO" : "brpsouza",
+    "DS_APLICACAO" : "Tasy",
+    "IE_BANCO" : "Oracle",
+    "IE_TIPO_OBJETO" : "PACKAGE",
+    "DT_ATUALIZACAO" : "02/07/2026 13:29:29",
+    "NM_OBJETO" : "CMDKLTDA_PKG_CLI1",
+    "DS_LAYER" : "CORE.CMDK_LTDA"
+  } ]
+}
