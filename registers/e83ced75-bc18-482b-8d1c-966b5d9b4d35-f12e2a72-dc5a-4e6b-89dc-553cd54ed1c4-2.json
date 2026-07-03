@@ -1,0 +1,154 @@
+{
+  "changes" : [ {
+    "event_info" : {
+      "date" : "03/07/2026 10:16:44",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "INSERT",
+      "sequence" : 700001,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "42a768b1-4a56-45c4-b9cf-e41d8f3774f3"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "d164e7dd3b4f",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_PKG_CLI1",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_PKG_CLI1",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_MEMORIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PACKAGE CMDKLTDA_PKG_CLI1 AS\n\n    -- Retorna o nome do cliente\n    FUNCTION obter_nome_cliente2(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2;\n\nEND CMDKLTDA_PKG_CLI1;\n/CREATE OR REPLACE PACKAGE BODY CMDKLTDA_PKG_CLI1 AS\n\n    FUNCTION obter_nome_cliente2(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2\n    IS\n        v  varchar2(100);\n        n number(20);\n    BEGIN\n        SELECT 'teste'\n          INTO v\n          FROM cliente_tasy\n         WHERE 1= p_id_cliente;\n         \n        select max(user_id) into v from AE_LOGIN;\n\n--select CMDKLTD_FN_SOMAR3(1,2) into n from dual;\n\n--select obter_nome_agencia2(25,'1234') into v from dual;\n\n--CMDKLTD_EXECUCAO_PRESCRICAO_PCK.limpar_w_execucao_proc_mat(1,1,1,1,'cmdk-adm');\n\nselect OBTER_DT_ENTREGA_MD ('','',1,sysdate,1) into nfrom dual;\n\n        RETURN 'teste';\n\n    END obter_nome_cliente;\n\nEND CMDKLTDA_PKG_CLI1;\n/",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_CRIACAO",
+      "data_type" : "DATE",
+      "new_value" : "03/07/2026 10:16:44",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_APLICACAO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Tasy",
+      "old_value" : null
+    }, {
+      "column_name" : "NM_USUARIO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "brpsouza",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_GERAR_SCRIPT",
+      "data_type" : "VARCHAR2",
+      "new_value" : "S",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : null
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PACKAGE",
+      "old_value" : null
+    }, {
+      "column_name" : "DT_ATUALIZACAO",
+      "data_type" : "DATE",
+      "new_value" : "02/07/2026 13:29:29",
+      "old_value" : null
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10181752,
+      "old_value" : null
+    }, {
+      "column_name" : "IE_CRIPTOGRAFIA",
+      "data_type" : "VARCHAR2",
+      "new_value" : "N",
+      "old_value" : null
+    }, {
+      "column_name" : "DS_LAYER",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CORE.CMDK_LTDA",
+      "old_value" : null
+    } ]
+  }, {
+    "event_info" : {
+      "date" : "03/07/2026 10:16:44",
+      "date_format" : "dd/mm/rrrr hh24:mi:ss",
+      "dml_operation" : "UPDATE",
+      "sequence" : 700002,
+      "table_name" : "OBJETO_SISTEMA",
+      "tag_name" : "CMDK",
+      "tasy_user" : "brpsouza",
+      "guid" : "4a64b91a-7610-41b8-9f2b-64ddddde6d68"
+    },
+    "server_info" : {
+      "charset" : "AMERICAN_AMERICA.AL32UTF8",
+      "database_version" : "19.0",
+      "instance_name" : "phcdb4"
+    },
+    "session_info" : {
+      "machine" : "d164e7dd3b4f",
+      "os_user" : "root",
+      "tasy_user" : "brpsouza"
+    },
+    "primary_key_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_PKG_CLI1",
+      "old_value" : "CMDKLTDA_PKG_CLI1"
+    }, {
+      "column_name" : "IE_BANCO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "Oracle",
+      "old_value" : "Oracle"
+    } ],
+    "column_values" : [ {
+      "column_name" : "NM_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "CMDKLTDA_PKG_CLI1",
+      "old_value" : "CMDKLTDA_PKG_CLI1"
+    }, {
+      "column_name" : "DS_SCRIPT_CRIACAO",
+      "data_type" : "LONG",
+      "new_value" : "CREATE OR REPLACE PACKAGE CMDKLTDA_PKG_CLI1 AS\n\n    -- Retorna o nome do cliente\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2;\n\nEND CMDKLTDA_PKG_CLI1;\n/CREATE OR REPLACE PACKAGE BODY CMDKLTDA_PKG_CLI1 AS\n\n    FUNCTION obter_nome_cliente(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2\n    IS\n        v  varchar2(100);\n        n number(20);\n    BEGIN\n        SELECT 'teste'\n          INTO v\n          FROM cliente_tasy\n         WHERE 1= p_id_cliente;\n         \n        select max(user_id) into v from AE_LOGIN;\n\n--select CMDKLTD_FN_SOMAR3(1,2) into n from dual;\n\n--select obter_nome_agencia2(25,'1234') into v from dual;\n\n--CMDKLTD_EXECUCAO_PRESCRICAO_PCK.limpar_w_execucao_proc_mat(1,1,1,1,'cmdk-adm');\n\nselect OBTER_DT_ENTREGA_MD ('','',1,sysdate,1) into nfrom dual;\n\n        RETURN 'teste';\n\n    END obter_nome_cliente;\n\nEND CMDKLTDA_PKG_CLI1;\n/",
+      "old_value" : "CREATE OR REPLACE PACKAGE CMDKLTDA_PKG_CLI1 AS\n\n    -- Retorna o nome do cliente\n    FUNCTION obter_nome_cliente2(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2;\n\nEND CMDKLTDA_PKG_CLI1;\n/CREATE OR REPLACE PACKAGE BODY CMDKLTDA_PKG_CLI1 AS\n\n    FUNCTION obter_nome_cliente2(\n        p_id_cliente IN NUMBER\n    ) RETURN VARCHAR2\n    IS\n        v  varchar2(100);\n        n number(20);\n    BEGIN\n        SELECT 'teste'\n          INTO v\n          FROM cliente_tasy\n         WHERE 1= p_id_cliente;\n         \n        select max(user_id) into v from AE_LOGIN;\n\n--select CMDKLTD_FN_SOMAR3(1,2) into n from dual;\n\n--select obter_nome_agencia2(25,'1234') into v from dual;\n\n--CMDKLTD_EXECUCAO_PRESCRICAO_PCK.limpar_w_execucao_proc_mat(1,1,1,1,'cmdk-adm');\n\nselect OBTER_DT_ENTREGA_MD ('','',1,sysdate,1) into nfrom dual;\n\n        RETURN 'teste';\n\n    END obter_nome_cliente;\n\nEND CMDKLTDA_PKG_CLI1;\n/"
+    }, {
+      "column_name" : "IE_TIPO_OBJETO",
+      "data_type" : "VARCHAR2",
+      "new_value" : "PACKAGE",
+      "old_value" : "PACKAGE"
+    }, {
+      "column_name" : "NR_SEQUENCIA",
+      "data_type" : "NUMBER",
+      "new_value" : 10181752,
+      "old_value" : 10181752
+    } ]
+  } ]
+}
